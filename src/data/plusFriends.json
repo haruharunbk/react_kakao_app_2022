@@ -1,0 +1,17 @@
+[
+	{
+		"id" : "1" ,
+		"icon" : "../images/kakaostory.png" ,
+		"text" : "Kakao Story" 
+	},
+	{
+		"id" : "2" ,
+		"icon" : "../images/path.png" ,
+		"text" : "Path" 
+	},
+	{
+		"id" : "3" ,
+		"icon" : "../images/kakaofriends.png" ,
+		"text" : "Kakao Friends" 
+	}
+]
