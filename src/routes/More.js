@@ -1,10 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import profileImage from '../data/profileImg.json';
-//import plusFriends from '../data/plusFriends.json';
-//import PlusFriends from '../components/PlusFriends';
 import '../styles/More.scss';
 
 function More() {
@@ -22,15 +19,15 @@ function More() {
 						<span className="profile-name">{myProfile.name}</span>
 						<span className="profile-email">{myProfile.email}</span>
 					</span>
-					<span className="chat-img"><Link to="#none"><i className="far fa-comment"></i></Link></span>
+					<span className="chat-img"><a href="#none"><i className="far fa-comment"></i></a></span>
 				</section>
 				<section className="user-menu">
 					<h2 className="blind">사용자 메뉴</h2>
 					<ul>
-						<li><Link to="#none"><i className="far fa-smile"></i>Emoticons</Link></li>
-						<li><Link to="#none"><i className="fas fa-paint-brush"></i>Themes</Link></li>
-						<li><Link to="#none"><i className="far fa-hand-peace"></i>Plus Friends</Link></li>
-						<li><Link to="#none"><i className="far fa-user-circle"></i>Account</Link></li>
+						<li><a href="#none"><i className="far fa-smile"></i>Emoticons</a></li>
+						<li><a href="#none"><i className="fas fa-paint-brush"></i>Themes</a></li>
+						<li><a href="#none"><i className="far fa-hand-peace"></i>Plus Friends</a></li>
+						<li><a href="#none"><i className="far fa-user-circle"></i>Account</a></li>
 					</ul>
 				</section>
 				<section className="plus-friends">
@@ -39,22 +36,22 @@ function More() {
 						<span><i className="fas fa-info-circle"></i> Learn More</span>
 					</header>
 					<ul className="plus-list">
-						<li><Link to="#none"><i className="fas fa-utensils"></i>Order</Link></li>
-						<li><Link to="#none"><i className="fas fa-home"></i>Store</Link></li>
-						<li><Link to="#none"><i className="fas fa-tv"></i>TV Channel/Radio</Link></li>
-						<li><Link to="#none"><i className="fas fa-pencil-alt"></i>Creation</Link></li>
-						<li><Link to="#none"><i className="fas fa-graduation-cap"></i>Education</Link></li>
-						<li><Link to="#none"><i className="fas fa-university"></i>Politics/Society</Link></li>
-						<li><Link to="#none"><i className="fas fa-won-sign"></i>Finance</Link></li>
-						<li><Link to="#none"><i className="fas fa-video"></i>Movies/Music</Link></li>
+						<li><a href="#none"><i className="fas fa-utensils"></i>Order</a></li>
+						<li><a href="#none"><i className="fas fa-home"></i>Store</a></li>
+						<li><a href="#none"><i className="fas fa-tv"></i>TV Channel/Radio</a></li>
+						<li><a href="#none"><i className="fas fa-pencil-alt"></i>Creation</a></li>
+						<li><a href="#none"><i className="fas fa-graduation-cap"></i>Education</a></li>
+						<li><a href="#none"><i className="fas fa-university"></i>Politics/Society</a></li>
+						<li><a href="#none"><i className="fas fa-won-sign"></i>Finance</a></li>
+						<li><a href="#none"><i className="fas fa-video"></i>Movies/Music</a></li>
 					</ul>
 				</section>
 				<section className="more-app">
 					<h2 className="blind">앱 더보기</h2>
 					<ul>
-						<li><Link to="#none"><span className="app-icon"></span>Kakao Story</Link></li>
-						<li><Link to="#none"><span className="app-icon"></span>Path</Link></li>
-						<li><Link to="#none"><span className="app-icon"></span>Kakao Friends</Link></li>
+						<li><a href="#none"><span className="app-icon"></span>Kakao Story</a></li>
+						<li><a href="#none"><span className="app-icon"></span>Path</a></li>
+						<li><a href="#none"><span className="app-icon"></span>Kakao Friends</a></li>
 					</ul>
 				</section>
 			</main>

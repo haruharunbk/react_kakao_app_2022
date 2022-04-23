@@ -54,14 +54,14 @@ function Chatting() {
 				</div>
 			</main>
 			<footer className="footer">
-				<span className="plus-btn"><Link to="#none"><i className="fas fa-plus"></i></Link></span>
+				<span className="plus-btn"><a href="#none"><i className="fas fa-plus"></i></a></span>
 				<form action="/" method="post">
 					<fieldset className="text-box">
 						<legend className="blind">채팅 입력창</legend>
 						<label className="blind">채팅 입력</label>
 						<input type="text" id="chatting" className="text-field" />
-						<span className="emoticon-btn"><Link to="#none"><i className="far fa-smile"></i></Link></span>
-						<span className="voice-btn"><Link to="#none"><i className="fas fa-microphone"></i></Link></span>
+						<span className="emoticon-btn"><a href="#none"><i className="far fa-smile"></i></a></span>
+						<span className="voice-btn"><a href="#none"><i className="fas fa-microphone"></i></a></span>
 					</fieldset>
 				</form>
 			</footer>
