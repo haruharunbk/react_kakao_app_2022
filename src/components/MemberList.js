@@ -6,7 +6,7 @@ function MemberList({ id, name, username, img }) {
 	return (
 		<>
 			<li>
-				<Link to={'/chatting'} state={{ name, username, img }}>
+				<Link to={'/profile'} state={{ name, username, img }}>
 					<span className="profile-img">
 						<img src={img} alt={name} />
 					</span>

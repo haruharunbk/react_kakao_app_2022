@@ -7,22 +7,22 @@ function Nav() {
     <nav className="tab-bar">
       <ul>
         <li>
-          <Link to="/" className="tab-list">
+          <Link to="/" className="tab-link">
             <i className="fas fa-user"></i>Friends
           </Link>
         </li>
         <li>
-          <Link to="/chats" className="tab-list">
+          <Link to="/chats" className="tab-link">
             <i className="fas fa-comment"></i>Chats
           </Link>
         </li>
         <li>
-          <Link to="/find" className="tab-list">
+          <Link to="/find" className="tab-link">
             <i className="fas fa-search"></i>Find
           </Link>
         </li>
         <li>
-          <Link to="/more" className="tab-list">
+          <Link to="/more" className="tab-link">
             <i className="fas fa-ellipsis-h"></i>More
           </Link>
         </li>
